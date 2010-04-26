@@ -14,7 +14,7 @@
   <parent>
   	<artifactId>jboss-parent</artifactId>
   	<groupId>org.jboss</groupId>
-  	<version>5-beta-5</version>
+  	<version>5</version>
   </parent>
   
   <scm>
