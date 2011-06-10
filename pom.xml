@@ -73,7 +73,7 @@
     <version.jdom>1.0</version.jdom>
     <version.jodatime>1.6</version.jodatime>
     <version.jsecurity>0.9.0</version.jsecurity>
-    <version.juel>2.1.2</version.juel>
+    <version.juel>2.2.3</version.juel>
     <version.pdfbox>1.4.0</version.pdfbox>
     <version.picocontainer>1.1</version.picocontainer>
     <version.quartz>1.8.4</version.quartz>
