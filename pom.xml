@@ -14,7 +14,7 @@
   <parent>
     <groupId>org.gatein</groupId>
     <artifactId>gatein-parent</artifactId>
-    <version>1.1.0-Beta02</version>
+    <version>1.1.0-GA</version>
   </parent>
   
   <scm>
@@ -553,13 +553,13 @@
         <version>${version.jboss.logging}</version>
       </dependency>
       <dependency>
-        <groupId>jboss</groupId>
-        <artifactId>jboss-common-logging-jdk</artifactId>
+        <groupId>org.jboss.logging</groupId>
+        <artifactId>jboss-logging-jdk</artifactId>
         <version>${version.jboss.logging}</version>
       </dependency>
       <dependency>
-        <groupId>jboss</groupId>
-        <artifactId>jboss-common-logging-log4j</artifactId>
+        <groupId>org.jboss.logging</groupId>
+        <artifactId>jboss-logging-log4j</artifactId>
         <version>${version.jboss.logging}</version>
       </dependency>
       <dependency>
