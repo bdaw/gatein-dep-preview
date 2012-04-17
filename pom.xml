@@ -18,9 +18,9 @@
   </parent>
   
   <scm>
-    <connection>scm:svn:http://anonsvn.jboss.org/repos/gatein/maven/dep/trunk/</connection>
-    <developerConnection>scm:svn:https://svn.jboss.org/repos/gatein/maven/dep/trunk/</developerConnection>
-    <url>http://fisheye.jboss.org/browse/gatein/maven/dep/trunk/</url>
+      <connection>scm:git:git://github.com/gatein/gatein-dep.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/gatein/gatein-dep.git</developerConnection>
+      <url>https://github.com/gatein/gatein-dep</url>
   </scm>
   
   <properties>
@@ -137,6 +137,17 @@
     <version.jboss.jbossxb>2.0.1.GA</version.jboss.jbossxb>
     <version.jboss.jbossas>5.1.0.GA</version.jboss.jbossas>
     <version.jboss.jbossts>4.6.1.GA</version.jboss.jbossts>
+    
+    <!-- maven-release-plugin -->
+    <useReleaseProfile>false</useReleaseProfile>
+    <arguments>-Prelease</arguments>
+    <version.release.plugin>2.2.1</version.release.plugin>
+    <pushChanges>false</pushChanges>
+    <autoVersionSubmodules>true</autoVersionSubmodules>
+     
+    <!-- buildnumber-maven-plugin : needs 1.0 for git -->
+    <version.buildnumber.plugin>1.0</version.buildnumber.plugin>
+    
   </properties>
   
   
